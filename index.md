@@ -25,6 +25,15 @@ This project analyses match records and player statistics.
 The workflow includes checking data quality, cleaning data,
 aggregating team statistics and visualizing relationships.
 
+### Project Visualization
+
+![Relationship between goals scored, goals conceded and league points](attack_defence.png)
+
+Each dot represents one team. Teams scoring more goals generally
+earned more points (r = 0.908), while teams conceding more goals
+generally earned fewer points (r = -0.900). These are associations
+within this season, not evidence of causation.
+
 **Key findings:** Goals scored per match have a strong positive
 association with league points, while goals conceded per match
 have a strong negative association. Both attacking and defensive
